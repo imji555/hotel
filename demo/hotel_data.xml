@@ -139,20 +139,5 @@
         <field name="service_categ_id" search="[('name', '=', 'Fixed')]" />
         <field name="list_price">150.00</field>
     </record>
-    <!--Amenities -->
-    <record id="hotel_room_amenities_1" model="hotel.room.amenities">
-        <field name="name">Toiletries</field>
-        <field name="iscategid">1</field>
-        <field name="amenities_categ_id" search="[('name', '=', 'All Aminities')]" />
-    </record>
-    <record id="hotel_room_amenities_2" model="hotel.room.amenities">
-        <field name="name">Iron</field>
-        <field name="iscategid">1</field>
-        <field name="amenities_categ_id" search="[('name', '=', 'All Aminities')]" />
-    </record>
-    <record id="hotel_room_amenities_3" model="hotel.room.amenities">
-        <field name="name">Irons Boards</field>
-        <field name="iscategid">1</field>
-        <field name="amenities_categ_id" search="[('name', '=', 'All Aminities')]" />
-    </record>
+
 </odoo>
