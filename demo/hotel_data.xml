@@ -132,12 +132,5 @@
         <field name="isservice">1</field>
         <field name="service_categ_id" search="[('name', '=', 'Variable')]" />
         <field name="list_price">500.00</field>
-    </record>
-    <record id="hotel_service_1" model="hotel.services">
-        <field name="name">Laundry</field>
-        <field name="isservice">1</field>
-        <field name="service_categ_id" search="[('name', '=', 'Fixed')]" />
-        <field name="list_price">150.00</field>
-    </record>
-
+    
 </odoo>
